@@ -1,0 +1,86 @@
+:root {
+    --primary-color: #DC84F3;
+    --secondary-color: #E9A8F2;
+    --accent-color: #F3CCF3;
+    --white-color: #fff;
+    --background-color: #FFE7C1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Protest Riot", sans-serif;
+}
+
+body{
+    background-color: var(--background-color);
+    text-align: center;
+    color: var(--primary-color);
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* background-image: url(./assets/congo.gif); */
+}
+
+h1{
+    font-size: 4.2rem;
+    margin: 50px 0;
+}
+
+.congo{
+    position: absolute;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.7rem;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 3rem;
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 1.2rem;
+    border: none;
+    margin: 10px 0;
+}
+
+#msg{
+    font-size: 2rem;
+    padding-top: 22px;
+    color: var(--secondary-color);
+}
+
+
+.hide{
+    display: none;
+}
