@@ -1,9 +1,15 @@
 :root {
-    --primary-color: #DC84F3;
+    /* --primary-color: #DC84F3;
     --secondary-color: #E9A8F2;
     --accent-color: #F3CCF3;
     --white-color: #fff;
-    --background-color: #FFE7C1;
+    --background-color: #FFE7C1; */
+
+    --primary-color: #f59e29;
+    --secondary-color: #f1c232;
+    --accent-color: #fff2cc;
+    --text-color: #000;
+    --background-color: #a2c4c9;
 }
 
 *{
@@ -24,7 +30,8 @@ body{
 
 h1{
     font-size: 4.2rem;
-    margin: 50px 0;
+    margin: 40px 0;
+    text-shadow: 2px 2px var(--text-color);
 }
 
 .congo{
@@ -35,7 +42,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     margin: 2rem 0;
 }
 
@@ -47,7 +54,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1.7rem;
+    gap: 1.3rem;
 }
 
 .box{
@@ -59,25 +66,26 @@ main{
     border-radius: 1rem;
     border: none;
     box-shadow: 0 0 1rem rgba(0,0,0,0.3);
-    font-size: 3rem;
+    font-size: 4rem;
     background-color: var(--accent-color);
-    color: var(--white-color);
+    color: var(--text-color);
 }
 
 #reset-btn{
     padding: 1rem;
     font-size: 1.5rem;
     background-color: var(--primary-color);
-    color: var(--white-color);
+    color: var(--text-color);
     border-radius: 1.2rem;
     border: none;
     margin: 10px 0;
 }
 
 #msg{
-    font-size: 2rem;
-    padding-top: 22px;
+    font-size: 3rem;
+    /* padding-top: 22px; */
     color: var(--secondary-color);
+    text-shadow: 2px 2px var(--text-color);
 }
 
 
